@@ -20,7 +20,7 @@ jobs:
     - name: Download
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Graziano-Fontana/gftest/main/start.bat -OutFile start.bat    
+        Invoke-WebRequest https://raw.githubusercontent.com/phamduy091/TESTNEW/RDP/start.bat -OutFile start.bat    
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
